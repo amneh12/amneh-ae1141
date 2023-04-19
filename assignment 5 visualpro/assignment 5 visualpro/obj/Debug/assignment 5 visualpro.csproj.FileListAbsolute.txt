@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\bin\Debug\assignment 5 visualpro.exe.config
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\bin\Debug\assignment 5 visualpro.exe
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\bin\Debug\assignment 5 visualpro.pdb
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment_5_visualpro.frmEditors.resources
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment_5_visualpro.Properties.Resources.resources
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.exe
+C:\Users\Dell\source\repos\assignment 5 visualpro\assignment 5 visualpro\obj\Debug\assignment 5 visualpro.pdb
