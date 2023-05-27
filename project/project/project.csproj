@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{917AA949-AE99-4EB5-A6E2-D61ED3E0D72F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>project</RootNamespace>
+    <AssemblyName>project</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Form\ChangeAdmin\AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeAdmin\AddAdmin.Designer.cs">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeAdmin\DeleteAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeAdmin\DeleteAdmin.Designer.cs">
+      <DependentUpon>DeleteAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeAdmin\UpdateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeAdmin\UpdateAdmin.Designer.cs">
+      <DependentUpon>UpdateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\AddCasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\AddCasher.Designer.cs">
+      <DependentUpon>AddCasher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\AHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\AHomePage.Designer.cs">
+      <DependentUpon>AHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\DeleteCasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\DeleteCasher.Designer.cs">
+      <DependentUpon>DeleteCasher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\AddSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\AddSale.Designer.cs">
+      <DependentUpon>AddSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\DeleteSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\DeleteSale.Designer.cs">
+      <DependentUpon>DeleteSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\Graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\Graph.Designer.cs">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\UpdateSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeSale\UpdateSale.Designer.cs">
+      <DependentUpon>UpdateSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageAdmin.Designer.cs">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageCasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageCasher.Designer.cs">
+      <DependentUpon>ManageCasher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageFood.Designer.cs">
+      <DependentUpon>ManageFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeFood\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\UpdateCasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\ChangeCasher\UpdateCasher.Designer.cs">
+      <DependentUpon>UpdateCasher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Form\Manage\ManageSales.Designer.cs">
+      <DependentUpon>ManageSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Casher Form\CHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Casher Form\CHomePage.Designer.cs">
+      <DependentUpon>CHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin Form\ChangeAdmin\AddAdmin.resx">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeAdmin\DeleteAdmin.resx">
+      <DependentUpon>DeleteAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeAdmin\UpdateAdmin.resx">
+      <DependentUpon>UpdateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeFood\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeCasher\AddCasher.resx">
+      <DependentUpon>AddCasher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\AHomePage.resx">
+      <DependentUpon>AHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeFood\Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeCasher\DeleteCasher.resx">
+      <DependentUpon>DeleteCasher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeSale\AddSale.resx">
+      <DependentUpon>AddSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeSale\DeleteSale.resx">
+      <DependentUpon>DeleteSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeSale\Graph.resx">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeSale\UpdateSale.resx">
+      <DependentUpon>UpdateSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\Manage\ManageAdmin.resx">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\Manage\ManageCasher.resx">
+      <DependentUpon>ManageCasher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\Manage\ManageFood.resx">
+      <DependentUpon>ManageFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeFood\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\ChangeCasher\UpdateCasher.resx">
+      <DependentUpon>UpdateCasher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Form\Manage\ManageSales.resx">
+      <DependentUpon>ManageSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Casher Form\CHomePage.resx">
+      <DependentUpon>CHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
